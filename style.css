@@ -1,0 +1,72 @@
+/* Reset some default styling */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the top bar */
+.top-bar {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.scrolling-text {
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+/* Styling for the middle section */
+.middle-section {
+    background-color: green;
+    text-align: center;
+    padding: 60px;
+    position: relative;
+}
+
+.middle-section img.logo {
+    max-width: auto;
+    height: 150px;
+}
+
+.middle-section img.mode-switch {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    max-height: 100px;
+}
+
+/* Styling for the bottom bar */
+.bottom-bar {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav-list {
+    list-style: none;
+    font-size: 20px;
+}
+
+.nav-list li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list a:hover {
+    color: green;
+}
+
+/* Dark mode styling */
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
